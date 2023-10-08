@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import schedule from 'node-schedule';
 import { Telegraf } from "telegraf";
 import { message } from 'telegraf/filters';
